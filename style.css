@@ -68,4 +68,7 @@ body{
     .container .text button{
         padding: 7px;
     }
+    .container .infos{
+        font-size: 15px;
+    }
 }
