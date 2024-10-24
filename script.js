@@ -4,7 +4,7 @@ const infos = document.querySelector(".infos");
 
 button.onclick = () => {
   if (isNaN(NombreSaisis.value)) {
-    infos.textContent = "LE CARACTERE SAISIS N'ES PAS UN NOMBRE";
+    infos.textContent = "LE CARACTERE SAISIS N'EST PAS UN NOMBRE";
   } else {
     const nombre = parseInt(NombreSaisis.value);
 
@@ -30,7 +30,7 @@ button.onclick = () => {
 NombreSaisis.addEventListener("keydown", function () {
   if (event.key === "Enter") {
     if (isNaN(NombreSaisis.value)) {
-      infos.textContent = "LE CARACTERE SAISIS N'ES PAS UN NOMBRE";
+      infos.textContent = "LE CARACTERE SAISIS N'EST PAS UN NOMBRE";
     } else {
       const nombre = parseInt(  NombreSaisis.value);
 
